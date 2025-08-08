@@ -21,7 +21,7 @@ function changeBackgroundImage() {
 
 let timer
 function startInterval() {
-  timer = setTimeout(fetchHitokoto, 10 * 1000)
+  timer = setTimeout(fetchHitokoto, 30 * 1000)
 }
 async function fetchHitokoto() {
   if(loading.value) return
