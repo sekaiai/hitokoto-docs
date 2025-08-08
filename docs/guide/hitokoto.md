@@ -46,20 +46,22 @@ outline: deep
 2. 在`script`标签中请求接口
 :::code-group
 ```js [Fetch API]
+const hitokoto = document.querySelector('#hitokoto_text')
+
 // 这是浏览器原生的，不需要第三方请求库
 fetch('https://hi.logacg.com')
   .then(response => response.json())
   .then(data => {
-    const hitokoto = document.querySelector('#hitokoto_text')
     hitokoto.innerText = data.hitokoto
   })
   .catch(console.error)
 ```
 
 ```js [Axios]
+const hitokoto = document.querySelector('#hitokoto_text');
+
 axios.get('https://hi.logacg.com')
   .then(({ data }) => {
-    const hitokoto = document.querySelector('#hitokoto_text')
     hitokoto.innerText = data.hitokoto
   })
   .catch(console.error)
@@ -80,12 +82,13 @@ $.ajax({
 ```
 
 ```js [XMLHttpRequest]
+const hitokoto = document.querySelector('#hitokoto_text');
+
 var xhr = new XMLHttpRequest();
 xhr.open('get', 'https://hi.logacg.com');
 xhr.onreadystatechange = function () {
   if (xhr.readyState === 4) {
     const data = JSON.parse(xhr.responseText);
-    const hitokoto = document.querySelector('#hitokoto_text');
     hitokoto.innerText = data.hitokoto;
   }
 }
