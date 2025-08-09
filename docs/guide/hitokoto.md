@@ -2,16 +2,14 @@
 outline: deep
 ---
 
-# Hitokoto API Examples
+# 句子接口
 
 就一个接口还要写个文档，真是离谱。
 本项目所有句子依赖[sentences-bundle](https://github.com/hitokoto-osc/sentences-bundle)语句库库。
 
-## 接口列表
+## 预览
 * <https://hi.logacg.com>
 * <https://hi.logacg.com?c=b> （获取漫画分类下的句子）
-
-
 
 > [!TIP]
 > 每次请求返回一条句子，每条句子缓存1秒。并开启了访问限制，每个IP 1秒最多访问5次、10秒30次、1分钟120次。
