@@ -8,7 +8,7 @@ outline: deep
 
 一直对优美的句子格外钟情，并且想要自己创建一个与句子相关的项目。后来，偶然发现了 [hitokoto](https://github.com/hitokoto-osc) 这个项目。虽然其中的句子数量并不多，但句子都非常不错。该项目还是开源的，所以我尝试自行部署。
 
-有点丢脸，看不懂源码，但hitokoto的句子也是[开源](https://github.com/hitokoto-osc/sentences-bundle)的，于是我自己写了。
+有点丢脸，看不懂源码，不过hitokoto的句子也是[开源](https://github.com/hitokoto-osc/sentences-bundle)的，于是我自己写了个。
 
 
 ## 预览
