@@ -109,6 +109,8 @@ onUnmounted(() => {
   left :0;
   right: 0;
   bottom: 2px;
+  flex-wrap: wrap;
+  padding: 5px 10px;
 }
 /* 版权信息样式 */
 .copyright img {
