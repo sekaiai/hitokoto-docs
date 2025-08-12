@@ -23,7 +23,8 @@ export default defineConfig({
         items: [
           { text: '一言', link: '/guide/hitokoto' },
           { text: 'ExHentai', link: '/guide/exhentai' },
-          { text: '漫画压缩', link: '/guide/zip-manage' }
+          { text: '漫画压缩', link: '/guide/zip-manage' },
+          { text: '提醒事项', link: '/guide/reminder' },
         ]
       }
     ],
