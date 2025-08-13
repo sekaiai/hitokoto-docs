@@ -20,6 +20,8 @@ outline: deep
 
 从chrome插件市场下载插件，或者直接下载插件压缩包，解压后拖入chrome扩展程序页面即可。
 
+https://chromewebstore.google.com/detail/chrome-exhentai-help/dpnkmdlkpcgckdjolnddjgnahcagjlmd?authuser=0&hl=zh-CN
+
 
 ### 自己编译安装
 
