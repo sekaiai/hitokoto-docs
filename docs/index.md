@@ -134,7 +134,7 @@ onUnmounted(() => {
   line-height: initial;
   /* border-radius: 4px; */
   /* background-color: var(--vp-nav-bg-color); */
-  /* background: color-mix(in srgb, var(--vp-nav-bg-color) 60%, transparent); */
+  background: color-mix(in srgb, var(--vp-nav-bg-color) 20%, transparent);
 }
 
 .from_who {
@@ -145,6 +145,7 @@ onUnmounted(() => {
   line-height: initial;
   display: flex;
   align-items: flex-end;
+  background: color-mix(in srgb, var(--vp-nav-bg-color) 20%, transparent);
 }
 
 .more {
